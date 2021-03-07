@@ -1,3 +1,9 @@
+This project features REACT/node.js, as well as Redux and Bootstrap. I had to learn html and javascript to create it.
+I also had to gain a thoruogh understanding of the DOM (Document Object Model). 
+This project will eventually be set up with a server and url if possible, but that is not the case at this time.
+In order to run the project, please pull the project to any IDE, and use the 'npm start' command in the terminal.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
