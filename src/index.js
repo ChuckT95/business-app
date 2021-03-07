@@ -10,8 +10,7 @@ const initialState = {
   loggedin: false,
   cart: [],
   username: '',
-  showmodal: false,
-  objects: []
+  showmodal: false
 }
 function reducer(state = initialState, action){
   switch (action.type){
@@ -30,8 +29,6 @@ function reducer(state = initialState, action){
       return{showmodal: true}
   case "MODALCLICKOFF":
       return{showmodal: false}   
-  case "OBJECTS":
-    return {objects: action.payload}
   default:
      return state;
 }
